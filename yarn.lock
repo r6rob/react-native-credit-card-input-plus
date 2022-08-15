@@ -150,6 +150,11 @@
   dependencies:
     "@octokit/openapi-types" "^11.1.0"
 
+"@react-native/normalize-color@*":
+  "integrity" "sha512-Wip/xsc5lw8vsBlmY2MO/gFLp3MvuZ2baBZjDeTjjndMgM0h5sxz7AZR62RDPGgstp8Np7JzjvVqVT7tpFZqsw=="
+  "resolved" "https://registry.npmjs.org/@react-native/normalize-color/-/normalize-color-2.0.0.tgz"
+  "version" "2.0.0"
+
 "@sindresorhus/is@^0.14.0":
   "integrity" "sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ=="
   "resolved" "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz"
@@ -342,6 +347,7 @@
     "js-tokens" "^3.0.2"
 
 "babel-eslint@^5.0.0":
+  "integrity" "sha512-NJo6B7o6A/6Fzw4L6UlYMjfRMajfAZNvQ7AhvkVoKdleT0nRpVwbs+kVoSbAlYGVlPkIg7/90uIZW+GJ+wdPXQ=="
   "resolved" "https://registry.npmjs.org/babel-eslint/-/babel-eslint-5.0.4.tgz"
   "version" "5.0.4"
   dependencies:
@@ -667,6 +673,7 @@
     "babel-types" "^6.24.1"
 
 "babel-polyfill@^6.6.1":
+  "integrity" "sha512-F2rZGQnAdaHWQ8YAoeRbukc7HS9QgdgeyJ0rQDd485v9opwuPvjpPFcOOT/WmkKTdgy9ESgSPXDcTNpzrGr6iQ=="
   "resolved" "https://registry.npmjs.org/babel-polyfill/-/babel-polyfill-6.26.0.tgz"
   "version" "6.26.0"
   dependencies:
@@ -675,6 +682,7 @@
     "regenerator-runtime" "^0.10.5"
 
 "babel-preset-react-native@^1.8.0":
+  "integrity" "sha512-8Bslsp+uRiLlrNi9C+AQEuhdeJ1pnI7JHM1XEqEwHFNv5KkGfPyhjUC0Mt6APjubt7keYMT+M2SevWDI4aLGaQ=="
   "resolved" "https://registry.npmjs.org/babel-preset-react-native/-/babel-preset-react-native-1.9.2.tgz"
   "version" "1.9.2"
   dependencies:
@@ -880,6 +888,7 @@
   "version" "6.2.0"
 
 "card-validator@^3.0.0":
+  "integrity" "sha512-xqF4s0TW3AkFqhHxnslFtdMO4XlP2TwqDFPBAvu41+OYo/U3byOmc8YbwV+zum/rt5jD3nTOBjZxDWbtHBgqUA=="
   "resolved" "https://registry.npmjs.org/card-validator/-/card-validator-3.0.1.tgz"
   "version" "3.0.1"
   dependencies:
@@ -1176,6 +1185,15 @@
     "flat" "^5.0.2"
     "lodash" "^4.17.20"
 
+"deprecated-react-native-prop-types@^2.3.0":
+  "integrity" "sha512-pWD0voFtNYxrVqvBMYf5gq3NA2GCpfodS1yNynTPc93AYA/KEMGeWDqqeUB6R2Z9ZofVhks2aeJXiuQqKNpesA=="
+  "resolved" "https://registry.npmjs.org/deprecated-react-native-prop-types/-/deprecated-react-native-prop-types-2.3.0.tgz"
+  "version" "2.3.0"
+  dependencies:
+    "@react-native/normalize-color" "*"
+    "invariant" "*"
+    "prop-types" "*"
+
 "deprecation@^2.0.0", "deprecation@^2.3.1":
   "integrity" "sha512-xmHIy4F3scKVwMsQ4WnVaS8bHOx0DmVwRywosKhaILI0ywMDWPtBSku2HNxRvF7jtwDRsoEwYQSfbxj8b7RlJQ=="
   "resolved" "https://registry.npmjs.org/deprecation/-/deprecation-2.3.1.tgz"
@@ -1320,14 +1338,17 @@
     "estraverse" "^4.1.1"
 
 "eslint-config-airbnb@6.0.2":
+  "integrity" "sha512-+bUj7CFaREi8jGK+JVv+aK7M/i5B/7qYDbWKsSVJMl0/88FOVybxdG5S9a9EgQ0vCXsSQLRomrF0ZNx9izZEkQ=="
   "resolved" "https://registry.npmjs.org/eslint-config-airbnb/-/eslint-config-airbnb-6.0.2.tgz"
   "version" "6.0.2"
 
 "eslint-plugin-react@^4.0.0", "eslint-plugin-react@^4.2.0":
+  "integrity" "sha512-ajQ9S74FUln2GcwgpPUQqRLcT6UFDhvAMIiDX4F68tDnuihNXcAA7LI19MmRGGOuJnpMVDXugJg+wf9K+bf6kg=="
   "resolved" "https://registry.npmjs.org/eslint-plugin-react/-/eslint-plugin-react-4.3.0.tgz"
   "version" "4.3.0"
 
 "eslint@^2.2.0", "eslint@<2.3.0", "eslint@~2.2.0":
+  "integrity" "sha512-Ay1ThESRUQUlI3JnWrVjAecu+v2sm9ldq95IPe4LyrC8fG3SSZs5f2l4xRfB3kW9UOACeBsx0Na8uJ1ckgeBrg=="
   "resolved" "https://registry.npmjs.org/eslint/-/eslint-2.2.0.tgz"
   "version" "2.2.0"
   dependencies:
@@ -1921,7 +1942,7 @@
   "resolved" "https://registry.npmjs.org/interpret/-/interpret-1.4.0.tgz"
   "version" "1.4.0"
 
-"invariant@^2.2.2":
+"invariant@*", "invariant@^2.2.2":
   "integrity" "sha512-phJfQVBuaJM5raOpJjSfkiD6BpbCE4Ns//LaXl6wGYtUBY83nWS6Rf9tXm2e8VaK60JEjYldbPif/A2B1C2gNA=="
   "resolved" "https://registry.npmjs.org/invariant/-/invariant-2.2.4.tgz"
   "version" "2.2.4"
@@ -2240,10 +2261,12 @@
     "lodash.keys" "^3.0.0"
 
 "lodash.compact@^3.0.1":
+  "integrity" "sha512-2ozeiPi+5eBXW1CLtzjk8XQFhQOEMwwfxblqeq6EGyTxZJ1bPATqilY0e6g2SLQpP4KuMeuioBhEnWz5Pr7ICQ=="
   "resolved" "https://registry.npmjs.org/lodash.compact/-/lodash.compact-3.0.1.tgz"
   "version" "3.0.1"
 
 "lodash.every@^4.6.0":
+  "integrity" "sha512-isF82d+65/sNvQ3aaQAW7LLHnnTxSN/2fm4rhYyuufLzA4VtHz6y6S5vFwe6PQVr2xdqUOyxBbTNKDpnmeu50w=="
   "resolved" "https://registry.npmjs.org/lodash.every/-/lodash.every-4.6.0.tgz"
   "version" "4.6.0"
 
@@ -2286,6 +2309,7 @@
     "lodash.restparam" "^3.0.0"
 
 "lodash.pick@^4.4.0":
+  "integrity" "sha512-hXt6Ul/5yWjfklSGvLQl8vM//l3FtyHZeuelpzK6mm99pNvN9yTDruNZPEJZD1oWrqo+izBmB7oUfWgcCX7s4Q=="
   "resolved" "https://registry.npmjs.org/lodash.pick/-/lodash.pick-4.4.0.tgz"
   "version" "4.4.0"
 
@@ -2295,6 +2319,7 @@
   "version" "3.6.1"
 
 "lodash.values@^4.3.0":
+  "integrity" "sha512-r0RwvdCv8id9TUblb/O7rYPwVy6lerCbcawrfdo9iC/1t1wsNMJknO79WNBgwkH0hIeJ08jmvvESbFpNb4jH0Q=="
   "resolved" "https://registry.npmjs.org/lodash.values/-/lodash.values-4.3.0.tgz"
   "version" "4.3.0"
 
@@ -2710,7 +2735,7 @@
   "resolved" "https://registry.npmjs.org/progress/-/progress-1.1.8.tgz"
   "version" "1.1.8"
 
-"prop-types@^15.6.0", "prop-types@^15.7.2":
+"prop-types@*", "prop-types@^15.6.0", "prop-types@^15.7.2":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"

@@ -3,13 +3,13 @@ import PropTypes from "prop-types";
 import ReactNative, {
   NativeModules,
   View,
-  Text,
+  ViewStyle,
+  TextStyle,
   StyleSheet,
   ScrollView,
   Dimensions,
   TextInput,
 } from "react-native";
-import { ViewPropTypes } from "deprecated-react-native-prop-types";
 
 import CreditCard from "./CardView";
 import CCInput from "./CCInput";
@@ -48,9 +48,9 @@ export default class CreditCardInput extends Component {
     labels: PropTypes.object,
     placeholders: PropTypes.object,
 
-    labelStyle: Text.propTypes.style,
-    inputStyle: Text.propTypes.style,
-    inputContainerStyle: ViewPropTypes.style,
+    labelStyle: PropTypes.shape(TextStyle),
+    inputStyle: PropTypes.shape(TextStyle),
+    inputContainerStyle: PropTypes.shape(ViewStyle),
 
     validColor: PropTypes.string,
     invalidColor: PropTypes.string,
